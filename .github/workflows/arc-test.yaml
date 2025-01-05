@@ -5,7 +5,7 @@ on:
 jobs:
   runner-check:
     name: Runner Check
-    runs-on: lomeone-arc-runner-set
+    runs-on: self-hosted
     # runs-on: ubuntu-latest
     # environment:
     #  name: prod  # 생성한 환경 이름
